@@ -1,3 +1,2 @@
-#import subprocess
-#subprocess.call("epiphany-browser http://ddlab.au.dk", shell=True)
--m webbrowser -t “http://ddlabau.github.io/openingHours”
+import subprocess
+subprocess.call("chromium-browser -kiosk http://ddlab.au.dk", shell=True)
